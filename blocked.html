@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Website Blocked</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 50px;
+        background-color: #f0f0f0;
+      }
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        background: white;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        color: #e74c3c;
+      }
+      p {
+        font-size: 18px;
+        line-height: 1.6;
+      }
+      .time {
+        font-weight: bold;
+        color: #3498db;
+      }
+    </style>
+    <script src="blocked.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Website Blocked</h1>
+      <p>This website has been blocked during your scheduled focus time.</p>
+      <p>You can access this site again after your blocking period ends.</p>
+      <p>Current blocking period: <span id="blockTime" class="time"></span></p>
+    </div>
+  </body>
+</html>
